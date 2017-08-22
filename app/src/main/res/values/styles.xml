@@ -1,0 +1,40 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    
+    
+    </style>
+
+    <style name="Rzgonz.Headline" parent="@android:style/Widget.EditText">
+        <item name="android:background">@color/new_abu_abu</item>
+    </style>
+
+    <style name="MyOwntheme" parent="MyOwntheme.Base"></style>
+
+    <style name="MyOwntheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="colorPrimary">@color/bgcolor</item>-->
+        <!--<item name="colorPrimaryDark">@color/bgcolor</item>-->
+        <!--<item name="colorControlNormal">@color/white</item>-->
+        <!--<item name="colorControlActivated">@color/white</item>-->
+        <!--<item name="colorControlHighlight">@color/white</item>-->
+
+    </style>
+
+</resources>

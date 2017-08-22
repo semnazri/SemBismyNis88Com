@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/txt_tgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginLeft="9dp"
+            android:textColor="#D4633C"
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:maxLines="2"
+            android:textColor="@color/blue_bisnis"
+            android:text="Large TextLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge Tex"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="14sp" />
+
+        <TableRow
+            android:id="@+id/row_bates_berita"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/img_dot"
+            android:alpha="0.5">
+        </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

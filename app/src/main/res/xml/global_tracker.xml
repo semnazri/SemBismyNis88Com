@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="ga_sessionTimeout">100</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="bisnis.com.official.Home2">
+        AnalyticsSampleApp Home
+    </screenName>
+    <screenName name="com.bisnis.Fragmanted_Canal">
+        AnalyticsSampleApp Fragmanted_Canal
+    </screenName>
+    <screenName name="com.bisnis.Fragmanted_Detail">
+        AnalyticsSampleApp Fragmanted_Detail
+    </screenName>
+     <screenName name="com.bisnis.Fragmanted_Search">
+        AnalyticsSampleApp Fragmanted_Search
+    </screenName>
+       <screenName name="com.bisnis.Activity_Detail">
+        AnalyticsSampleApp Activity_Detail
+    </screenName>
+    <screenName name="com.bisnis.Activity_Detail_Index">
+        AnalyticsSampleApp Activity_Detail
+    </screenName>
+       
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-25108613-1</string>
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/nav_selector" >
+
+<ExpandableListView
+    android:id="@+id/expand_list_nav"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:focusable="false"
+    android:visibility="gone" >
+
+</ExpandableListView>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/cmd_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+		        android:layout_width="32dp"
+		        android:layout_height="32dp"
+		        android:layout_marginBottom="5dp"
+		        android:layout_marginLeft="12dp"
+		        android:layout_marginRight="12dp"
+		        android:layout_marginTop="5dp"
+                android:src="@android:drawable/ic_search_category_default" />
+
+            <TextView
+                android:id="@+id/textView4"
+               android:textColor="@color/text_nav"
+       			 android:gravity="center_vertical"
+       			 android:text="Search"
+      			  android:paddingRight="40dp"
+      			  android:layout_gravity="center"
+       			 android:textSize="18sp" />
+        </TableRow>
+		 <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_repeat" >
+        </TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          	 android:textColor="@android:color/white"
+            android:text="Front Page"
+            android:background="@color/nav_header"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp"
+            android:padding="5dp" />
+ 			<TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_repeat" >
+        </TableRow>
+        <ListView
+            android:id="@+id/list_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+           
+            android:choiceMode="singleChoice"
+     
+            android:focusable="false"
+           
+            tools:context="bisnis.com.official.NavigationDrawerFragment" >
+        </ListView>
+
+        <TableRow
+            android:id="@+id/table_roow_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+              android:background="@color/nav_header"
+          >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Favorite Channels"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/cmd_favorite"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/str"
+                android:contentDescription="@+id/cmd_favorite" />
+
+        </TableRow>
+		 <TableRow
+            android:id="@+id/tableRow21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_repeat" >
+        </TableRow>
+        <ListView
+            android:id="@+id/list_nav_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+          
+            android:choiceMode="singleChoice"
+        
+     
+            android:focusable="false"
+            android:visibility="visible"
+            tools:context="bisnis.com.official.NavigationDrawerFragment" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="@color/nav_header"
+            android:padding="5dp"
+            android:text="All Channel"
+               android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp"
+             />
+		 <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_repeat" >
+        </TableRow>
+        <ListView
+            android:id="@+id/list_nav_all"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+       
+            android:choiceMode="singleChoice"
+          
+           
+            android:focusable="false"
+            android:visibility="visible"
+            tools:context="bisnis.com.official.NavigationDrawerFragment" >
+        </ListView>
+        <TextView
+            android:id="@+id/Other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="@color/nav_header"
+            android:padding="5dp"
+            android:text="Other"
+               android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp"
+             />
+          <TableRow
+            android:id="@+id/cmd_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/nav_selector" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_list_item_icon"
+                android:src="@android:drawable/ic_menu_info_details" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingRight="40dp"
+                android:textColor="@color/text_nav"
+                android:textSize="15sp"
+                android:text="About"
+                android:layout_gravity="center" />
+
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nav_repeat" >
+        </TableRow>
+         <TableRow
+            android:id="@+id/cmd_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/nav_selector"
+             android:visibility="visible"
+              >
+
+            <ImageView
+                android:id="@+id/icon_old"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_list_item_icon"
+                android:src="@android:drawable/ic_menu_preferences"
+                 />
+
+            <TextView
+                android:id="@+id/title_old"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingRight="40dp"
+                android:textColor="@color/text_nav"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:text="Setting" />
+
+        </TableRow>
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

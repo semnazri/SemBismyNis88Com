@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <StackView
+        android:id="@+id/stack_list_contoh"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:animateFirstView="true"
+        android:animateLayoutChanges="true"
+        android:autoAdvanceViewId="@+id/stackView1"
+        android:loopViews="true" >
+
+    </StackView>
+</RelativeLayout>

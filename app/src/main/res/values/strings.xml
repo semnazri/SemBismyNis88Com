@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="kosong"></string>
+    <string name="app_name">Bisnis.com</string>
+    <string name="aplikasi">Bisnis.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="refersh">Refresh</string>
+    <string name="Artikel_Terkait">Artikel Terkait</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cari">Cari</string>
+    <string name="share">Share</string>
+    <string name="save">Save Berita</string>
+    	<string name="list_save">Berita Saved</string>
+        <string name="bisnis_bali">Bisnis Bali</string>
+            <string name="bisnis_jateng">Bisnis Jateng</string>
+                <string name="bisnis_jatim">Bisnis Jatim</string>
+                    <string name="bisnis_makassar">Bisnis Makassar</string>
+                        <string name="bisnis_batam">Bisnis Batam</string>
+                      	   <string name="bisnis_sumatra">Bisnis Sumatra</string>
+                      	   
+
+
+    <integer name="publis_id_smatto">1100004184</integer>
+
+    <string name="version_name">Version 2.5.8</string>
+      <string name="version_code">18</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_name">
+        <item >Berita Terbaru</item>
+         <item >Headline</item>
+        <item >Terpopuler</item>
+        <item >Unggulan</item>
+        <item >Trending News</item>
+        <item >Editors Choice</item>
+         <item >Bookmarks</item>
+         
+       <item>Kabar24</item>
+       <item >Market</item>
+       <item >Finansial</item>
+       <item >Industri</item>
+        <item >Otomotif</item>
+       <item >Jakarta Raya</item>
+       <item>Bola</item>
+       <item>Life&amp;style</item>
+        <item >Gadget</item>
+       <item >Traveling</item>
+        <item >Properti</item>
+        <item >Sport</item>
+
+
+       <item>Koran Bisnis</item>
+       <item >Bisnis Syariah</item>
+       <item>Management</item>
+       <item >Entrepreneur</item>
+       
+       <item >Info</item>
+       <item >Inforial</item>
+  
+       
+       <item >Hasil Pencarian</item>
+    </string-array>
+    
+        <string-array name="headlines">
+        <item >breaking</item><!-- breaking-news -->
+        <item >headlines</item><!-- breaking-news -->
+        <item >populer</item><!-- terpopuler -->
+        <item >tranding</item><!-- unggulan -->
+        <item >mustread</item><!-- treding news -->
+        <item >editorchoices</item><!-- edotor-chieos -->
+    </string-array>
+    
+        <string-array name="canal_id">
+        <item >0</item><!-- breaking-news -->
+        <item >headlines</item><!-- breaking-news -->
+        <item >populer</item><!-- terpopuler -->
+        <item >mustread</item><!-- treding news -->
+        <item >tranding</item><!-- unggulan -->
+        <item >editorchoices</item><!-- edotor-chieos -->
+        <item >bookmark</item><!-- edotor-chieos -->
+        
+        <item >186</item><!-- Kabar24 -->
+        <item >194</item><!-- market -->
+        <item >5</item><!-- finansial -->
+        <item >43</item><!-- industri -->
+        <item >272</item><!-- otomotif -->
+        <item >382</item><!-- Jakarta -->
+        <item >392</item><!-- Bola -->
+		<item >197</item><!-- lisftstle -->
+        <item >277</item><!-- gadget -->
+        <item >222</item><!-- traveller -->
+            <item >47</item><!-- properti -->
+            <item >57</item><!-- sport -->
+        <item >242</item><!-- Koran Bisnis  -->
+        <item >231</item><!-- bisnis syariah -->
+		<item >52</item><!-- management -->
+        <item >258</item><!-- Enterpreneur -->
+	
+ 		<item >243</item><!-- info -->
+ 		<item >73</item><!-- inforial -->
+ 		
+        <item>cari</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/berita_terbaru</item>
+        <item>@drawable/allcanal</item>
+        <item>@drawable/terpopuler</item>
+        <item>@drawable/unggulan</item>
+        <item>@drawable/trending_news</item>
+        <item>@drawable/editor_choice</item>
+        <item>@drawable/bookmark</item>
+        
+        <item>@drawable/icon_kabar24</item>
+        <item>@drawable/icon_market</item>
+        <item>@drawable/icon_finansial</item>
+        <item>@drawable/icon_industri</item>
+        <item>@drawable/icon_otomotif</item>
+        <item>@drawable/icon_jakartaraya</item>
+
+        <item>@drawable/icon_bola</item>
+        <item>@drawable/icon_lifestyle</item>
+        <item>@drawable/gadget</item>
+        <item>@drawable/traveler</item>
+        <item>@drawable/properti</item>
+        <item>@drawable/sport</item>
+
+        <item>@drawable/bisnis_indonesia</item>
+        <item>@drawable/bisnis_syariah</item>
+  
+        <item>@drawable/manajemen</item>
+        <item>@drawable/inspirasi_bisnis</item>
+      
+        <item>@drawable/indonesia_today</item>
+  		<item>@drawable/inforial</item>
+    
+    </array>
+    
+    <array name="array_interval_refresh">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 Hour</item>
+         <item>Never</item>
+    </array>
+
+    <array name="array_grid_nav">
+        <item>Home Page</item>
+        <item>All Channels</item>
+        <item>All Favorite</item>
+        <item>Bookmarks</item>
+    </array>
+
+    <array name="array_grid_nav_channels">
+        <item>Kabar24</item>
+        <item>Market</item>
+        <item>Finansial</item>
+        <item>Industri</item>
+        <item>Otomotif</item>
+        <item>Jakarta Raya</item>
+        <item>Bola</item>
+        <item>Life&amp;Style</item>
+    </array>
+    <array name="array_grid_nav_channels_id">
+        <item >186</item><!-- Kabar24 -->
+        <item >194</item><!-- market -->
+        <item >5</item><!-- finansial -->
+        <item >43</item><!-- industri -->
+        <item >272</item><!-- otomotif -->
+        <item >382</item><!-- Jakarta -->
+        <item >392</item><!-- Bola -->
+        <item >197</item><!-- lisftstle -->
+    </array>
+
+    <string-array name="array_frontpage_id">
+        <item >0</item><!-- breaking-news -->
+        <item >editorchoices</item><!-- edotor-chieos -->
+        <item >saham</item><!-- terpopuler -->
+        <item >hargaemas</item><!-- treding news -->
+        <item >finansial</item><!-- unggulan -->
+
+    </string-array>
+
+    <string-array name="array_frontpage">
+        <item>Berita Terbaru</item>
+        <item>Editors Choice</item>
+        <item>Rekomendasi Saham</item>
+        <item>Harga Emas</item>
+        <item>Finansial</item>
+
+    </string-array>
+
+
+
+    <string-array name="array_allchanel_id">
+        <item >186</item><!-- Kabar24 -->
+        <item >194</item><!-- market -->
+        <item >5</item><!-- finansial -->
+        <item >43</item><!-- industri -->
+        <item >272</item><!-- otomotif -->
+        <item >382</item><!-- Jakarta -->
+        <item >392</item><!-- Bola -->
+        <item >197</item><!-- lisftstle -->
+        <item >277</item><!-- gadget -->
+        <item >222</item><!-- traveller -->
+        <item >47</item><!-- properti -->
+        <item >57</item><!-- sport -->
+        <item >242</item><!-- Koran Bisnis  -->
+        <item >231</item><!-- bisnis syariah -->
+        <item >52</item><!-- management -->
+        <item >258</item><!-- Enterpreneur -->
+        <item >243</item><!-- info -->
+        <item >73</item><!-- inforial -->
+    </string-array>
+    <array name="array_allchanel">
+        <item>Kabar24</item>
+        <item>Market</item>
+        <item>Finansial</item>
+        <item>Industri</item>
+        <item>Otomotif</item>
+        <item>Jakarta Raya</item>
+        <item>Bola</item>
+        <item>Life&amp;Style</item>
+        <item>Gadget</item>
+        <item>Travelling</item>
+        <item>Properti</item>
+        <item>Sport</item>
+        <item>Koran Bisnis</item>
+        <item>Bisnis Syariah</item>
+        <item>Management</item>
+        <item>Enterpreneur</item>
+        <item>Info</item>
+        <item>Inforial</item>
+    </array>
+
+    <integer-array name="array_allchanel_color">
+        <item>0xFF2774BA</item><!-- Kabar24 -->
+        <item>0xFFE4AE3A</item><!-- Market -->
+        <item>0xFF1B8A94</item><!-- Finansial -->
+        <item>0xFF34495E</item><!-- Industri -->
+        <item>0xFF6892CC</item><!-- Otomotif -->
+        <item>0xFFFF5E00</item><!-- Jakarta -->
+
+        <item>0xFF1EB848</item><!-- Bola -->
+        <item>0xFFFF6FBA</item><!-- Life -->
+        <item>0xFF4A5372</item><!-- Gadget -->
+        <item>0xFF9B58B5</item><!-- Traveling -->
+
+
+        <item>0xFFE9A880</item><!-- Properti -->
+        <item>0xFFF01644</item><!-- Sport -->
+        <item>0xFF666666</item><!-- Koran Bisnis -->
+        <item>0xFF10BA8D</item><!-- Bisnis Syariah -->
+        <item>0xFFB46868</item><!-- Management -->
+        <item>0xFF50CCFF</item><!-- Enterprener -->
+        <item>0xFFFF6D00</item><!-- Info -->
+        <item>0xFFFFCC00</item><!-- Inforial -->
+    </integer-array>
+
+    <array name="array_font_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+
+    <string-array name="img_array">
+        <item>http://mangaindo.co/wp-content/manga/244/1/00.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/01.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/02.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/00.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/01.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/02.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/00.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/01.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/02.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/00.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/01.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/02.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/00.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/01.jpg</item>
+        <item>http://mangaindo.co/wp-content/manga/244/1/02.jpg</item>
+    </string-array>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    
+
+</resources>

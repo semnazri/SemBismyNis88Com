@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/refersh"
+        android:textColor="@color/judul"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgfitured"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@+id/txtdate"
+        android:contentDescription="@+id/imgawal"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_logo" />
+
+    <LinearLayout
+        android:id="@+id/LinierBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tableRow3"
+        android:visibility="visible"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_canal_subcanal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Sport - Sepak Bola"
+                    android:textColor="@color/abu_abu"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgfitured2"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="7dp"
+                    android:background="@drawable/border_text"
+                    android:contentDescription="@+id/imgfitured"
+                   
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_logo"
+                    android:visibility="gone" />
+
+               <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="top"
+                    android:orientation="vertical" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/txtdate2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="02-05-2014"
+                            android:textColor="@color/abu_abu"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/txtminut"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:shadowColor="@color/abu_abu"
+                            android:text="7 menute ago"
+                            android:textColor="@color/abu_abu"
+                            android:textSize="12sp" />
+                    </TableRow>
+
+                   <!--<TextView-->
+                       <!--android:paddingTop="5dp"-->
+                       <!--android:layout_width="wrap_content"-->
+                       <!--android:layout_height="match_parent"-->
+                       <!--android:id="@+id/subtitle_cari"-->
+                       <!--android:textColor="#d4633c"-->
+                       <!--android:text="Subtitle"/>-->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/txtjudul2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:paddingBottom="3dp"
+                            android:text="Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd Index Kopsi Ditutup reboung 8% asd"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/judul"
+                            android:textSize="13sp" />
+
+                        <ImageView
+                            android:id="@+id/img_live_home2"
+                            android:layout_width="24dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/live" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@drawable/img_dot"
+                android:alpha="0.3">
+            </TableRow>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgfitured"
+        android:background="@color/bates_headline" >
+
+    </TableRow>
+
+   
+
+    <TableRow
+        android:id="@+id/table_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	 android:layout_alignBottom="@+id/imgfitured"
+        android:layout_alignParentLeft="true"
+        android:background="@color/background_title_headlinee" >
+        <ImageView
+                    android:id="@+id/img_live_home"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/live"
+                    android:layout_gravity="center_vertical"/>
+        
+         <TextView
+             android:id="@+id/txtjudul"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="10dp"
+             android:text="12 - 20 - 2014"
+             android:textColor="@android:color/white"
+             android:textStyle="bold"
+             android:visibility="visible" />
+        
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:minHeight="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_title_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:maxLines="2"
+            android:text="Large TextLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge TexLarge Tex"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blue_bisnis"
+            android:textSize="18sp" />
+
+        <WebView
+            android:id="@+id/web_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:minHeight="100dp"
+            android:requiresFadingEdge="none"
+            android:scrollbars="none" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/txt_canal"></TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

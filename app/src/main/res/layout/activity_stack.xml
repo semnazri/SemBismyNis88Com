@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_stack"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stack View"
+        android:layout_marginTop="20dp"
+        android:textColor="#336633"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <StackView
+        android:id="@+id/stackView1"
+        android:layout_width="64sp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:animateLayoutChanges="true"
+        android:loopViews="true" 
+        android:animateFirstView="true"
+        android:autoAdvanceViewId="@+id/stackView1"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:rotation="90"
+         >
+
+    </StackView>
+
+    <FrameLayout 
+ 
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    />
+    </LinearLayout>
+
+</ScrollView>

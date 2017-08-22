@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtdate_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/refersh"
+        android:textColor="@color/judul"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgfitured_headline"
+        android:layout_width="match_parent"
+        android:minHeight="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtdate"
+        android:contentDescription="@+id/imgawal"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_logo"
+        />
+
+
+    <TableRow
+        android:id="@+id/table_headline_stack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgfitured_headline"
+        android:layout_alignParentLeft="true"
+        >
+        <ImageView
+            android:id="@+id/img_live_home_headline"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/live"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtjudul_headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="12 - 20 - asdsad asd sad asd sad asd asd asdas d sadasd asd asd asd asdsadsadsadasd"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:visibility="visible"
+
+            />
+
+    </TableRow>
+
+
+
+</RelativeLayout>

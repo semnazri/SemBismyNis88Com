@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.android/build-cache/c89e8ed3b9b7818d80ff9d4509f5e6d89d61be2d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes_75172bd068754c0c6e6f7fddc6a478bc227d9887.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-90011893f8eb407f06234ad159c3ff0f98094e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.android/build-cache/f91e82f5722737a9fd197c52edbf258a487a35d1/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_affc077b72a81fac858607b08d06c31b4dec6fe9.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes-041c1a6d8cd6ae74003f5f0b912c95ece3ad05e9.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f48b7b98afe00bc29e5afcd296349b8bd69c17de.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes-ec95d7b39852af5ef8150c2e063e367ff9ccdabc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/gson-2.6.1_b9eb98dfbb1559ef3289edab59c597dd91ac3370.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/libs/gcm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/gcm_6d06e93d3a5e4c732afcfc8e3607c8bd857baa28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.android/build-cache/0e1daad772ceae488a9165245a462afa2f7dc97d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes_2a6153d413ed65015c5aa28d97c02636b780bcb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.android/build-cache/f91e82f5722737a9fd197c52edbf258a487a35d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes_2f05870165fbb08a1fb5fda942d54b87b4f69851.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/libs/gcm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/gcm-1a86fe5b9d1671c6032af880219f528cad9c92d8.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/libs/SOMAAndroidSDK4.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="d6c6d588cc107f2dece9577893269dffbb13b51f">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/SOMAAndroidSDK4.4.2-fbc2273f9902ae594c8d3d1aa75cd5468533c5c0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes-a74ef9ffd8be2a2968c90c21075fd81654bb3a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_021a21389b0a7c5a9294716ebe3441253dffea16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/libs/SOMAAndroidSDK4.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6c6d588cc107f2dece9577893269dffbb13b51f">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/SOMAAndroidSDK4.4.2_9535708692a2f4b3f6a49bac0223977f43e57716.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.android/build-cache/167397aa585975dbb18c11e5644aaae8efaeedc6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes_87dd74b1329e6df48a2cc456019b07350afc0834.jar" />
+    </item>
+    <item
+        jar="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Volumes/Sibertama/StudioBisnis/Bisnis.com/app/build/intermediates/pre-dexed/debug/classes-85eb9dd0e29a3e45bf57ad582fc8d98a7dee65c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Sibertama/BIS/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_c2676d8bfd76c87d3a2dd10a1b862f9097e207ad.jar" />
+    </item>
+
+</items>

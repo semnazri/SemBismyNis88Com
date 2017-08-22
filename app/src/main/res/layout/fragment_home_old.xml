@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+<TableRow
+        android:id="@+id/row_canal_name"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bates_biru"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txt_canal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Canal"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/row_canal_name"
+        android:background="@color/bates_headline"
+        android:visibility="gone">
+
+    </TableRow>
+    <android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+      android:layout_below="@+id/tableRow3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listviewberita"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:minHeight="300dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:background="@android:color/white"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:listSelector="@drawable/list_selector"
+        >
+    </ListView>
+</android.support.v4.widget.SwipeRefreshLayout>
+    <ProgressBar
+        android:id="@+id/prosesdata"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/counter_bg"
+        android:contentDescription="@+id/prosesdata" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bates_biru" >
+
+        <TextView
+            android:id="@+id/txttgl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="9dp"
+            android:layout_weight="1"
+            android:text="18 April 2014"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <example.CustomDigitalClock
+            android:id="@+id/txtjam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone" />
+    </TableRow>
+
+        <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:background="@color/bates_headline" >
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listviewberita"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow3"
+        android:minHeight="300dp"
+        android:layout_above="@+id/layout_deletemodel"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:listSelector="@drawable/list_selector"
+        android:divider="@null"
+        android:dividerHeight="0dp">
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/prosesdata"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/counter_bg"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/option_deletemode" />
+
+</RelativeLayout>

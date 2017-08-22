@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actionbar_backgond"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bates_biru"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/txtnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+     
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:background="@drawable/panah_left"
+            android:textStyle="italic" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAlignment="center" 
+          >
+
+            <ImageView
+                android:id="@+id/imgjam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:contentDescription="@+id/imgjam"
+                android:src="@android:drawable/presence_away"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/live"
+                android:padding="3dp"
+                android:contentDescription="@+id/img_live" />
+
+            <TextView
+                android:id="@+id/txttgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="18 April 2014"
+                android:visibility="gone" />
+
+            <example.CustomDigitalClock
+                android:id="@+id/txtjam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/txtprevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/panah"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="italic" />
+
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:background="@color/bates_headline" >
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrolldetailberita"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow3" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtjudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text=""
+                android:textColor="@color/judul"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                
+                 />
+
+            <TextView
+                android:id="@+id/txt_detail_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_title_headlinee_detail"
+                android:paddingLeft="9dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            
+            <TextView
+                android:id="@+id/txt_detail_penulis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_title_headlinee_detail"
+                android:textColor="@color/background_author_detail"
+                android:textSize="12sp"
+                android:paddingLeft="9dp"
+             
+                 />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/actionbar_background"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_below="@+id/tableRow4"
+                    android:id="@+id/imgfitured"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@+id/imgfitured"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:minHeight="150dp"
+                    android:scaleType="fitXY"
+                     />
+                <TextView
+                    android:id="@+id/txtimg_sumber"
+                    android:layout_below="@+id/imgfitured"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="2dp"
+              		android:visibility="gone"
+                    android:textSize="11sp"
+              
+                    android:text="asdasd"
+                    android:textColor="@color/background_author_detail" />
+
+                <TextView
+                    android:id="@+id/txtimg_caption"
+                    android:layout_below="@+id/txtimg_sumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="-5dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="11sp"
+                   	android:textColor="@color/background_author_detail" />
+
+                <TextView
+                    android:id="@+id/txt_detail_penulis_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtimg_caption"
+                    android:layout_margin="5dp"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/prosesdata"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/background_title_headlinee_detail">
+                </TableRow>
+
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/webdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:requiresFadingEdge="none" />
+
+            <TextView
+                android:id="@+id/txteditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="left"
+                android:paddingBottom="20dp"
+                android:text=" "
+                android:textSize="12sp"
+                android:padding="9dp" />
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" >
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berita Terkait :"
+                android:textColor="@color/blue_bisnis"
+                android:background="@color/counter_text_bg"
+                android:paddingLeft="9dp"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <example.CustomExpandListView
+                android:id="@+id/list_terkait"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="50dp"
+                android:background="@android:color/white" >
+
+            </example.CustomExpandListView>
+
+                 </LinearLayout>
+    </ScrollView>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        layout="@layout/menu_item" />
+
+</RelativeLayout>

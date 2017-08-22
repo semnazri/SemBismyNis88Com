@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:BannerView="http://schemas.android.com/apk/lib/com.smaato.soma"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bates_biru"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txt_canal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Canal"
+            android:textColor="@color/txt_canal"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:background="@color/bates_headline"
+        android:visibility="gone">
+
+    </TableRow>
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tableRow3">
+
+        <example.AutoSpanRecyclerView
+            android:id="@+id/listviewberita"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tableRow1"
+            android:background="@android:color/white"
+            android:clipToPadding="false"
+            android:listSelector="@drawable/list_selector"
+            android:minHeight="300dp"
+            android:paddingTop="60dp"
+            android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+            android:scrollbars="vertical"></example.AutoSpanRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/prosesdata"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/counter_bg"
+        android:contentDescription="@+id/prosesdata" />
+
+    <com.smaato.soma.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/abc_control_inset_material"
+        BannerView:adSpaceId="0"
+        BannerView:loadNewBanner="true"
+        BannerView:publisherId="0" />
+
+</RelativeLayout>

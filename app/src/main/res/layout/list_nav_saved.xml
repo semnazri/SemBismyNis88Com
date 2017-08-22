@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/desc_list_item_icon"
+                android:src="@drawable/ramadan" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="40dp"
+                android:textColor="@color/new_abu_abu"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cek_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/icon"
+                android:enabled="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/img_dot"
+            android:alpha="0.3"
+      >
+        </TableRow>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/counter_bg"
+        android:textColor="@color/counter_text_color"
+        android:visibility="invisible" />
+
+</RelativeLayout>

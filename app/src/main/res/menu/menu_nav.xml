@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"  >
+      <item
+        android:id="@+id/menu_saved"
+        android:orderInCategory="1"
+        android:title="@string/list_save"
+        yourapp:showAsAction="collapseActionView"
+       />
+         <item
+        android:id="@+id/menu_bali"
+        android:orderInCategory="2"
+        android:title="@string/bisnis_bali"
+        yourapp:showAsAction="collapseActionView"
+       />
+            <item
+        android:id="@+id/menu_jateng"
+        android:orderInCategory="3"
+        android:title="@string/bisnis_jateng"
+        yourapp:showAsAction="collapseActionView"
+       />
+               <item
+        android:id="@+id/menu_jatim"
+        android:orderInCategory="4"
+        android:title="@string/bisnis_jatim"
+        yourapp:showAsAction="collapseActionView"
+       />
+                  <item
+        android:id="@+id/menu_makassar"
+        android:orderInCategory="5"
+        android:title="@string/bisnis_makassar"
+        yourapp:showAsAction="collapseActionView"
+       />
+                     <item
+        android:id="@+id/menu_sumatra"
+        android:orderInCategory="6"
+        android:title="@string/bisnis_sumatra"
+        yourapp:showAsAction="collapseActionView"
+       />
+                        <item
+        android:id="@+id/menu_batam"
+        android:orderInCategory="7"
+        android:title="@string/bisnis_batam"
+        yourapp:showAsAction="collapseActionView"
+       />
+    
+
+</menu>
