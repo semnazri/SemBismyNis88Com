@@ -209,26 +209,7 @@ public class SpashScreen extends Activity {
         // TODO Auto-generated method stub
 //        String VersionControl = getResources().getString(R.string.version_name);
         if (hasConnection()) {
-
-            Thread timerThread = new Thread() {
-                public void run() {
-                    try {
-                        sleep(SPLASH_DISPLAY_LENGHT);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    } finally {
-                        checkVersionCOntrol();
-//                        Intent mainIntent = new Intent(getApplication(), Home3.class);
-//                        mainIntent.putExtra("NAV_ID", 0);
-//                        mainIntent.putExtra("NAV", 0);
-//                        mainIntent.putExtra("SUBCANAL_COUNT", 5);
-//                        startActivity(mainIntent);
-//                        finish();
-
-                    }
-                }
-            };
-            timerThread.start();
+            checkVersionCOntrol();
 
 
         } else {
@@ -249,8 +230,9 @@ public class SpashScreen extends Activity {
     }
 
     private void checkVersionCOntrol() {
-        String url_version = "http://services.bisnis.com/json/";
-
+//        String url_version = "http://services.bisnis.com/json/";
+        String url_version = "http://client.sibertama.com/epaper-api/ios/";
+        Log.d("masuk", "versen kontrol");
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url_version)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -261,16 +243,18 @@ public class SpashScreen extends Activity {
             @Override
             public void onResponse(Call<model.VersionControl> call, retrofit2.Response<model.VersionControl> response) {
                 String versionName = "";
+                Log.d("masuk", "nunggu respons");
 //                    int versionCode = -1;
                 try {
                     PackageInfo packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
                     versionName = packageInfo.versionName;
+                    Log.d("masuk", "nunggu versen name");
 
 //                        versionCode = packageInfo.versionCode;
                 } catch (PackageManager.NameNotFoundException e) {
                     e.printStackTrace();
                 }
-
+                Log.d("masuk", "nunggu versen");
                 String version = response.body().getVersion();
                 Log.d("version__", versionName);
                 Log.d("versi server", version);
@@ -278,7 +262,27 @@ public class SpashScreen extends Activity {
                 if (version.equals(versionName)) {
                     Log.d("if", "if");
 
-                    mulailah();
+                    Thread timerThread = new Thread() {
+                        public void run() {
+                            try {
+                                sleep(SPLASH_DISPLAY_LENGHT);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            } finally {
+//                                checkVersionCOntrol();
+                                Intent mainIntent = new Intent(getApplication(), Home3.class);
+                                mainIntent.putExtra("NAV_ID", 0);
+                                mainIntent.putExtra("NAV", 0);
+                                mainIntent.putExtra("SUBCANAL_COUNT", 5);
+                                startActivity(mainIntent);
+                                finish();
+
+                            }
+                        }
+                    };
+                    timerThread.start();
+
+
 //                        Toast.makeText(SpashScreen.this, version, Toast.LENGTH_SHORT).show();
 
                 } else {
@@ -326,7 +330,7 @@ public class SpashScreen extends Activity {
                                 }
                             }
                         })
-                .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int wich) {
                         mulailah();

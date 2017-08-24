@@ -14,6 +14,6 @@ import retrofit2.http.GET;
 
 public interface VersionControl {
 
-    @GET("versionControl")
+    @GET("BVersion")
     Call<model.VersionControl> getVersionControl();
 }

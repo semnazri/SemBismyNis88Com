@@ -53,21 +53,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sibertama/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/gson-2.6.1_b9eb98dfbb1559ef3289edab59c597dd91ac3370.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/libs/gcm.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
         <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/gcm_6d06e93d3a5e4c732afcfc8e3607c8bd857baa28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sibertama/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Volumes/Sibertama/BIS/Android/Bisnis.com/app/build/intermediates/pre-dexed/debug/gson-2.6.1_b9eb98dfbb1559ef3289edab59c597dd91ac3370.jar" />
     </item>
     <item
         is-multidex="false"

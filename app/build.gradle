@@ -15,7 +15,7 @@ android {
         applicationId "bisnis.com.official"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 23
+        versionCode 24
         versionName '2.5.8'
         signingConfig signingConfigs.config
     }
