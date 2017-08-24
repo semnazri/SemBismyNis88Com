@@ -29,7 +29,7 @@
 
     <integer name="publis_id_smatto">1100004184</integer>
 
-    <string name="version_name">Version 2.5.8</string>
+    <string name="version_name">Version 2.5.9</string>
       <string name="version_code">18</string>
     
     <!-- Nav Drawer Menu Items -->
